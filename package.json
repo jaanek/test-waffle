@@ -1,0 +1,25 @@
+{
+  "name": "test-waffle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "ethereum-waffle": "^2.0.4",
+    "openzeppelin-solidity": "^2.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/register": "^7.0.0",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.9"
+  },
+  "scripts": {
+    "build": "waffle",
+    "test": "mocha --require @babel/register"
+  },
+  "author": "",
+  "license": "ISC"
+}
